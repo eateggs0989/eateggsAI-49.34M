@@ -1,6 +1,6 @@
-# eateggsAI-30M v0.1
+# eateggsAI-49.343M v0.1
 
-eateggsAI-30M is an experimental GPT-style LLM created as a low-VRAM challenge to train a 30M parameter transformer on a GTX 1060 4GB GPU using PyTorch.
+eateggsAI-49.343M is an experimental GPT-style LLM created as a low-VRAM challenge to train a 49.343M parameter transformer on a GTX 1060 4GB GPU using PyTorch.
 
 ---
 
@@ -19,13 +19,13 @@ Modern AI development often depends on expensive GPUs with large amounts of VRAM
 
 This project explores whether transformer-based language models can still be trained efficiently on older consumer-grade hardware.
 
-eateggsAI-30M was built as an experimental low-VRAM AI challenge to push the limits of a GTX 1060 4GB GPU while still achieving stable transformer training and meaningful text generation.
+eateggsAI-49.343M was built as an experimental low-VRAM AI challenge to push the limits of a GTX 1060 4GB GPU while still achieving stable transformer training and meaningful text generation.
 
 # Whitepaper
 
 Experimental research whitepaper:
 
-- eateggsAI-30M_WhitePaper.pdf
+- eateggsAI-49.343M_WhitePaper.pdf
 
   
 # Tested Environment
@@ -50,12 +50,14 @@ Experimental research whitepaper:
 
 | Setting | Value |
 |---|---|
-| Parameters | 30,044,544 |
+| Parameters | 49,343,232 (~49.34M) |
 | Transformer Layers | 6 |
 | Attention Heads | 8 |
 | Embedding Size | 384 |
 | Context Length | 256 |
+| Vocabulary Size | 50,257 |
 | Dropout | 0.1 |
+| Architecture | GPT-style Decoder-Only Transformer |
 
 ---
 
@@ -250,7 +252,7 @@ This project was created to:
 
 # What This Project Demonstrates
 
-eateggsAI-30M demonstrates:
+eateggsAI-~49.34M demonstrates:
 
 - Training a GPT-style LLM on low-VRAM consumer hardware
 - Building transformer architectures from scratch
