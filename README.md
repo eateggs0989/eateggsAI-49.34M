@@ -157,8 +157,8 @@ Model Saving
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/eateggsAI-30M.git
-cd eateggsAI-30M
+git clone https://github.com/eateggs0989/eateggsAI-49.34M
+cd eateggsAI-49.34M
 ```
 
 Install dependencies:
