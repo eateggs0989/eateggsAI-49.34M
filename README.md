@@ -276,4 +276,4 @@ This project can be used as:
 
 Current Version:
 ```text
-eateggsAI-30M v0.1
+eateggsAI-49.34M v0.1
